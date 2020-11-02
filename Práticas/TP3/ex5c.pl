@@ -1,0 +1,1 @@
+last(L,X) :- append(_L1,[X], L).

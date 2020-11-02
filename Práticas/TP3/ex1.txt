@@ -1,0 +1,12 @@
+a) True
+b) False. Cauda da lista tem de ser sempre uma lista
+c) True. H = apple; T = [broccoli, refrigerator]
+d) True. H = a; T = [b, c, d, e]
+e) True. H = apples; T = [bananas]
+f) True. H = a; T =[[b, c, d]]
+g) True. H = apples; T = []
+h) False.
+i) True. One = apple, Two = sprouts; T = [fridge, milk]
+j) True. X = a, Z = [Y | T]
+k) True. H = apple, T = [Z]
+l) True. 
