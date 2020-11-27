@@ -1,0 +1,10 @@
+O predicado verifica se um jogador de username X jogou pelo menos um jogo tal que a idade minima requerida fosse menor que a sua.
+
+O predicado com melhores nomes seria:
+onlyPlayesMatureGames(Username):-
+    player(Name, Username, Age), !,
+    \+ (played(Username, Game, HoursPlayed, PercentUnlocked), game(Game, Categories, MinAge), MinAge > Age).
+
+O cut é verde, uma vez que só melhora a eficiencia do programa. O cut impede que, quando encontra o jogador com o username igual a 
+Username, não volte a executar o predicado player (pois já encontramos o jogador pretendido).
+
