@@ -14,7 +14,7 @@ get_all_performances_rec(Acc, Performances):-
     performance(X, _),
     \+ my_member(X, Acc),
     get_all_performances_rec([X | Acc], Performances).
-
+    
 get_all_performances_rec(Performances, Performances).
 
 
